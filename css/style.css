@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 10px 0;
+  background-color: rgb(173 216 230);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 5px;
+  margin: 0 auto;
+  background-color: rgb(218 165 33);
+  border: dashed 2px black;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+/* /header */
