@@ -34,7 +34,7 @@ nav ul li {
 /* /header */
 
 
-/* first section */
+/* jumbotron */
 
 .jumbotron {
   height: 320px;
@@ -45,9 +45,38 @@ nav ul li {
 }
 .jumbotron-content {
   width: 55%;
-  height: 270px;
+  height: 280px;
   background-color: rgb(238 129 238);
   border: 2px dashed black;
 }
 
-/* /first section */
+/* /jumbotron */
+
+
+/* first-second-third section */
+
+.container {
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container.gray{
+  background-color:rgb(211 211 211) ;
+}
+.box {
+  height: 270px;
+  border: 2px dashed black;
+}
+.blue.box {
+  width: 40%;
+  background-color:rgb(29 144 255) ;
+}
+.pink.box {
+  width: 30%;
+  background-color: rgb(255 191 203);
+}
+
+/* /first-second-third section */
+
+
