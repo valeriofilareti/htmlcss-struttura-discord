@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
 /* header */
+
 header {
   display: flex;
   align-items: center;
@@ -11,7 +14,6 @@ header {
   padding: 10px 0;
   background-color: rgb(173 216 230);
 }
-
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -21,13 +23,31 @@ header {
   background-color: rgb(218 165 33);
   border: dashed 2px black;
 }
-
 nav ul {
   display: flex;
 }
-
 nav ul li {
   list-style: none;
   margin-right: 10px;
 }
+
 /* /header */
+
+
+/* first section */
+
+.jumbotron {
+  height: 320px;
+  background-color: rgb(0 0 139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron-content {
+  width: 55%;
+  height: 270px;
+  background-color: rgb(238 129 238);
+  border: 2px dashed black;
+}
+
+/* /first section */
