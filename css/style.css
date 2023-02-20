@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.dashed-border {
+  border: dashed 2px black;
+}
+
 
 /* header */
 
@@ -21,7 +25,6 @@ header {
   padding: 5px;
   margin: 0 auto;
   background-color: rgb(218 165 33);
-  border: dashed 2px black;
 }
 nav ul {
   display: flex;
@@ -47,7 +50,6 @@ nav ul li {
   width: 55%;
   height: 280px;
   background-color: rgb(238 129 238);
-  border: 2px dashed black;
 }
 
 /* /jumbotron */
@@ -61,12 +63,11 @@ nav ul li {
   justify-content: center;
   align-items: center;
 }
-.container.gray{
+.gray{
   background-color:rgb(211 211 211) ;
 }
 .box {
   height: 270px;
-  border: 2px dashed black;
 }
 .blue.box {
   width: 40%;
@@ -78,5 +79,24 @@ nav ul li {
 }
 
 /* /first-second-third section */
+
+
+/* green-box-section */
+
+.big-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.green-box {
+  width: 70%;
+  height: 450px;
+  background-color: rgb(35 139 33);
+}
+/* green-box-section */
+
+
+
 
 
