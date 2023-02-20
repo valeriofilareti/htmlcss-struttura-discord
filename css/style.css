@@ -94,7 +94,37 @@ nav ul li {
   height: 450px;
   background-color: rgb(35 139 33);
 }
+
 /* green-box-section */
+
+
+/* upper footer */
+
+.upper-footer {
+  height: 320px;
+  background-color: rgb(34 39 42);
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  border-bottom: 2px solid rgb(180 180 181);
+}
+.main-footer-box {
+  width: 22%;
+  height: 300px;
+  background-color: rgb(240 128 129);
+}
+.small-footer-box {
+  height: 300px;
+  width: 12%;
+  background-color: rgb(33 178 170);
+  border: 2px dashed white;
+}
+
+/* /upper footer */
+
+
+/* lower footer */
+/* /lower footer */
 
 
 
